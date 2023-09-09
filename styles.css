@@ -74,7 +74,7 @@ header{
     height: 200px;
     width: 50%;
     top:90px;
-    left: 350px;
+    left: 450px;
     padding: 2px 2px 2px 2px;
     margin-top: 20px;
     background-color: rgb(214, 188, 153);
@@ -86,7 +86,7 @@ header{
     width: 50%;
     height: 200px;
     top:320px;
-    left: 350px;
+    left: 450px;
     margin-top: 20px;
     background-color: rgb(214, 188, 153);
 }
