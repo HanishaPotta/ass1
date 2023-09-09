@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <span class="logoheading">
+            <a class="heading">Developer Funnel</a>
+        </span>
+        
+        <span class="home">
+            <a id="create">Home</a>
+        </span>
+    </header>
+    
+</body>
+<main>
+    <article class="filter-article">
+        <p id="loc-text" style="text-align: center; ">Select Location</p>
+        <hr>
+        <div class="drop">
+        <select class="dropdown" type="dropdown" >
+            <option id="loc1" class="loc">Banglore</option>
+            <option id="loc2" class="loc">Hyderabad</option>
+            <option id="loc3" class="loc">Vizag</option>
+            <option id="loc4" class="loc">Chennai</option>
+        </select>
+    </div>
+        <p id="cuisine-text" style="text-align: center;">Cuisine Filter</p>
+        <hr>
+        <form class="cuisbox">
+            <input type="checkbox" id="cuis1" name="cuis1" value="All">
+            <label for="cuis1"> All</label><br>
+            <input type="checkbox" id="cuis2" name="cuis2" value="North Indian">
+            <label for="cuis2"> North Indian</label><br>
+            <input type="checkbox" id="cuis3" name="cuis3" value="South Indian">
+            <label for="cuis3"> South Indian</label><br>
+            <input type="checkbox" id="cuis4" name="cuis4" value="Chinese">
+            <label for="cuis4"> Chinese</label><br>
+            <input type="checkbox" id="cuis5" name="cuis5" value="Fast Food">
+            <label for="cuis5"> Fast Food</label><br>
+            <input type="checkbox" id="cuis6" name="cuis6" value="Street Food">
+            <label for="cuis6"> Street Food</label><br>
+          </form>
+          <p id="cost-text" style="text-align: center;">Cost Filter</p>
+          <hr>
+        <form class="costbox">
+            <input type="checkbox" id="cost1" name="cost1" value="All">
+            <label for="cost1"> All</label><br>
+            <input type="checkbox" id="cost2" name="cost2" value="0-300">
+            <label for="cost2"> 0-300</label><br>
+            <input type="checkbox" id="cost3" name="cost3" value="301-600">
+            <label for="cost3"> 301-600</label><br>
+            <input type="checkbox" id="cuis4" name="cost4" value="601-900">
+            <label for="cost4"> 601-900</label><br>
+            <input type="checkbox" id="cost5" name="cost5" value="901-5000">
+            <label for="cost5"> 901-5000</label><br>
+           
+          </form>
+          
+    </article>
+    <article class="result1-article">
+        <div id="cafeimg"><img src="./images/cafe.jpeg " alt="cafe" width="120" height="120"></div>
+        <div id="cafepara">
+        <p id="text1">AMA Cafe</p>
+        <p>House 6,New Colony,Majnu ka Tilla ,New Delhi<br>Average<br>Rs.450</p></div>
+        <div id="cafebutton">
+        <input type="button" value="Lunch" style="background-color: rgb(224, 55, 55); color: white; border: none"/>
+        <input type="button" value="North Indian" style="background-color: rgb(102, 102, 204); color: white; border: none"/>
+        <input type="button" value="South Indian" style="background-color: rgb(202, 210, 56); color: white; border: none"/>
+        <input type="button" value="Chinese" style="background-color: #4CAF50; color: white; border: none"/>
+    </div>
+
+    </article>
+
+        <article class="result2-article">
+            <div id="hotelimg">
+            <img src="./images/hotel.jpg",alt="hotelimag"width="120" height="120" ></div>
+            <div id="hotelpara"><p id="text2">Chandini Chowk 2 </p>Jeevan Bhima Nagar,Bangalor<br>Poor<br>Rs.370</p></div>
+            <div id="hotbutton">
+            <input type="button" value="Lunch" style="background-color: rgb(228, 54, 54); color: white; border: none"/>
+            <input type="button" value="North Indian" style="background-color: #4d874f; color: white; border: none"/>
+            <input type="button" value="South Indian" style="background-color: rgb(171, 132, 60); color: white; border: none"/>
+            <input type="button" value="Snacks" style="background-color: rgb(105, 105, 207); color: white; border: none"/>
+            </div>
+        
+        </article>
+        <div class="pages">
+            <a href="#" class="pre"><</a>
+            <a href="#" class="p1">1</a>
+            <a href="#" class="p2">2</a>
+            <a href="#" class="p3">3</a>
+            <a href="#" class="p4">4</a>
+            <a href="#" class="post">></a>
+        </div>
+
+</main>
+</html>
